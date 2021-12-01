@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/winter2.0.mp3-3bd8373e879e07b5dee848ee969feab5.mp3str"
+
+[deps]
+
+source_file="res://sfx/winter2.0.mp3"
+dest_files=[ "res://.import/winter2.0.mp3-3bd8373e879e07b5dee848ee969feab5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

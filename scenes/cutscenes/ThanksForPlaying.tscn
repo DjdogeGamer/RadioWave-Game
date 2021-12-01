@@ -1,0 +1,65 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://sprites_wave/idle_sprite.png" type="Texture" id=1]
+[ext_resource path="res://scenes/cutscenes/ThanksForPlaying.gd" type="Script" id=2]
+[ext_resource path="res://sfx/TELAFINAL.mp3" type="AudioStream" id=3]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://fonts/m5x7.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+font_data = SubResource( 1 )
+
+[node name="ThanksForPlaying" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 120.356
+margin_top = 150.746
+margin_right = 462.356
+margin_bottom = 191.746
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "OBRIGADO POR JOGAR!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 261.626
+margin_top = 229.517
+margin_right = 368.626
+margin_bottom = 269.517
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_right = 107.0
+margin_bottom = 20.0
+text = "Menu Principal"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 180.813, 182.138 )
+scale = Vector2( 0.965916, 0.965916 )
+z_index = -1
+texture = ExtResource( 1 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -10.0
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/Button" to="VBoxContainer" method="_on_Button_pressed"]

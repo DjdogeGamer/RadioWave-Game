@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/inimigomorrendo.mp3-4fc54b6cad85724605b5175b4992ad8a.mp3str"
+
+[deps]
+
+source_file="res://sfx/inimigomorrendo.mp3"
+dest_files=[ "res://.import/inimigomorrendo.mp3-4fc54b6cad85724605b5175b4992ad8a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

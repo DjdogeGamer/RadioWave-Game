@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/how to play.mp3-35453e24b165fac104be53d620ae9bc4.mp3str"
+
+[deps]
+
+source_file="res://stages/how to play.mp3"
+dest_files=[ "res://.import/how to play.mp3-35453e24b165fac104be53d620ae9bc4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

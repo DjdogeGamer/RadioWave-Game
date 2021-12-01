@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Inimigo.mp3-8f69bbe75f1435210d48d2364a9d8122.mp3str"
+
+[deps]
+
+source_file="res://sfx/Inimigo.mp3"
+dest_files=[ "res://.import/Inimigo.mp3-8f69bbe75f1435210d48d2364a9d8122.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

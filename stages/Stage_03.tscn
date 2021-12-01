@@ -1,0 +1,32 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://stages/baseStage.tscn" type="PackedScene" id=1]
+[ext_resource path="res://sprites/Fundo4.png" type="Texture" id=2]
+[ext_resource path="res://scenes/parallaxLayer1.gd" type="Script" id=3]
+[ext_resource path="res://sfx/SUMMER.mp3" type="AudioStream" id=4]
+[ext_resource path="res://scenes/cutscenes/Cutscene5.tscn" type="PackedScene" id=5]
+[ext_resource path="res://sfx/Tiro do protagonista pou pou.mp3" type="AudioStream" id=6]
+
+[node name="world" instance=ExtResource( 1 )]
+stageIndex = 2
+score = 45
+nextScene = ExtResource( 5 )
+
+[node name="playerShoot" parent="ship" index="7"]
+stream = ExtResource( 6 )
+
+[node name="ParallaxLayer" parent="ParallaxBackground" index="0"]
+script = ExtResource( 3 )
+SPEED = 100
+
+[node name="Sprite" parent="ParallaxBackground/ParallaxLayer" index="0"]
+position = Vector2( 365.202, 180.287 )
+scale = Vector2( 0.209775, 0.234619 )
+texture = ExtResource( 2 )
+
+[node name="winterSoundtrack" type="AudioStreamPlayer" parent="." index="10"]
+stream = ExtResource( 4 )
+volume_db = -15.0
+autoplay = true
+
+[editable path="ship"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/SUMMER.mp3-c3f1f60e1d8b325448d6de9d77561674.mp3str"
+
+[deps]
+
+source_file="res://sfx/SUMMER.mp3"
+dest_files=[ "res://.import/SUMMER.mp3-c3f1f60e1d8b325448d6de9d77561674.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

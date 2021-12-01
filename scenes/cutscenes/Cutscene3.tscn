@@ -1,0 +1,20 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scenes/cutscenes/BaseCutscene.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/cutscenes/CutsceneBackground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/cutscenes/DialogueBox_03.gd" type="Script" id=3]
+[ext_resource path="res://Cutscenes_Atualizadas/cena_3.png" type="Texture" id=4]
+[ext_resource path="res://stages/Stage_02.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/cutscenes/CUTSCENE.mp3" type="AudioStream" id=6]
+
+[node name="Control" instance=ExtResource( 1 )]
+next_scene = ExtResource( 5 )
+text_script = ExtResource( 3 )
+
+[node name="CutsceneBackground" parent="." index="2" instance=ExtResource( 2 )]
+texture = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="3"]
+stream = ExtResource( 6 )
+volume_db = -12.0
+autoplay = true

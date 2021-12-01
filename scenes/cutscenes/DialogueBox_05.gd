@@ -1,0 +1,77 @@
+extends Node2D
+
+var dialogue_1 = [
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " -O corpo de Wave começa a dissipar. Uma música começa a tocar ao mesmo tempo...",
+		"Music": "",
+		"SFX": "",
+	},
+	{
+		"Name": "Radialista",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'O que é isso?' ",
+		"Music": "",
+		"SFX": "",
+	},
+	{
+		"Name": "Radialista",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'Essa música… sou eu? Eu estou transmitindo a música?' ",
+		"Music": "",
+		"SFX": "",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'Não acredito...' ",
+		"Music": "",
+		"SFX": "botao",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " A música transmitida por Wave chega em várias pessoas no mundo. ",
+		"Music": "",
+		"SFX": "botao",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'Agora tudo faz sentido. O motivo pelo qual eu existo... Era para trazer de volta o essencial para essas pessoas...' ",
+		"Music": "",
+		"SFX": "botao",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " “ Essa é a minha dádiva para vocês… é a música, a arte do mundo! Não deixem ela morrer! Lembrem de quem vocês são! ” ",
+		"Music": "",
+		"SFX": "botao",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'Wave se dissipa por completo, espalhando a música.'  ",
+		"Music": "",
+		"SFX": "botao",
+	}
+] 
+

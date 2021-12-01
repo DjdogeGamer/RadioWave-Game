@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://stages/baseStage.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/cutscenes/Cutscene3.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/parallaxLayer1.gd" type="Script" id=3]
+[ext_resource path="res://sfx/Tiro do protagonista pou pou.mp3" type="AudioStream" id=4]
+[ext_resource path="res://sfx/AUTUMN2.0.mp3" type="AudioStream" id=5]
+
+[node name="world" instance=ExtResource( 1 )]
+score = 25
+nextScene = ExtResource( 2 )
+
+[node name="playerShoot" parent="ship" index="7"]
+stream = ExtResource( 4 )
+
+[node name="score" parent="." index="2"]
+text = "Enemies remaining: 0
+
+"
+
+[node name="ParallaxLayer" parent="ParallaxBackground" index="0"]
+script = ExtResource( 3 )
+SPEED = 100
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="10"]
+stream = ExtResource( 5 )
+volume_db = -10.0
+autoplay = true
+
+[connection signal="player_has_take_dama" from="ship" to="." method="_on_ship_player_has_take_dama"]
+
+[editable path="ship"]

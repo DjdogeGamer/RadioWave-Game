@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/inimigotomandodano.mp3-710bc99ff074ac200caa2a1e535130a7.mp3str"
+
+[deps]
+
+source_file="res://sfx/inimigotomandodano.mp3"
+dest_files=[ "res://.import/inimigotomandodano.mp3-710bc99ff074ac200caa2a1e535130a7.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

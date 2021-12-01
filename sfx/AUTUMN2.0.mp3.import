@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AUTUMN2.0.mp3-4e1a2dbf7b5cb24e3ec7b656e96d333f.mp3str"
+
+[deps]
+
+source_file="res://sfx/AUTUMN2.0.mp3"
+dest_files=[ "res://.import/AUTUMN2.0.mp3-4e1a2dbf7b5cb24e3ec7b656e96d333f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

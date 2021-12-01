@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Tiro do protagonista pou pou.mp3-bc68733c86f29b21a521b6b5e1c8f825.mp3str"
+
+[deps]
+
+source_file="res://sfx/Tiro do protagonista pou pou.mp3"
+dest_files=[ "res://.import/Tiro do protagonista pou pou.mp3-bc68733c86f29b21a521b6b5e1c8f825.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

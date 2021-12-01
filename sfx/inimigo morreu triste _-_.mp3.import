@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/inimigo morreu triste _-_.mp3-103c79dd5c414b03953ba6d6caaf75b3.mp3str"
+
+[deps]
+
+source_file="res://sfx/inimigo morreu triste _-_.mp3"
+dest_files=[ "res://.import/inimigo morreu triste _-_.mp3-103c79dd5c414b03953ba6d6caaf75b3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

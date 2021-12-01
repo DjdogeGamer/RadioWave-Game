@@ -1,0 +1,58 @@
+extends Node2D
+
+var dialogue_1 = [
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'Se isso der certo… vamos libertar o mundo!' ",
+		"Music": "",
+		"SFX": "",
+	},
+	{
+		"Name": "Radialista",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " 'Sim… a arte voltará!' ",
+		"Music": "",
+		"SFX": "",
+	},
+	{
+		"Name": "Radialista",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " “'Será mesmo...? Nosso plano não tem falhas?' ",
+		"Music": "",
+		"SFX": "",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": "'Não pode ter... Haroldo era radialista. E músico! Ele sabe dessas coisas como ninguém.'",
+		"Music": "",
+		"SFX": "botao",
+	},
+	{
+		"Name": "",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": "'Sem falar que o mundo não pode continuar desse jeito! A arte não pode sumir!' ",
+		"Music": "",
+		"SFX": "botao",
+	},
+ {
+		"Name": "Radialista",
+		"Expression": "",
+		"Position": "",
+		"Choices": "",
+		"Text": " “'Ssshh! Não fala tão alto! Nunca se sabe quem está por aí…'” ",
+		"Music": "",
+		"SFX": "",
+	},
+]
