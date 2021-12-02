@@ -27,9 +27,9 @@ Level Design
 
 Historia (Script e Narrativa)
 
-.)Patrícia Coutinho (Moopie#7497)
-.)Heitor Ferraz (Strawberry Fields#4243)
-.)Levi (........#0854)
-.)Davi Rodrigues (Raymond#0438)
+*Patrícia Coutinho (Moopie#7497)
+*Heitor Ferraz (Strawberry Fields#4243)
+*Levi (........#0854)
+*Davi Rodrigues (Raymond#0438)
 
 Em memória de Anderson Paulo. ❤
