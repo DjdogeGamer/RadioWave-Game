@@ -9,24 +9,29 @@ RadioWAVE é um shooter horizontal em terceira pessoa, no qual você mexe Wave, 
 
 O jogo é sobre Wave, uma garota que não sabe onde está ou quem é. No entanto, ela sabe aonde irá: para frente. Um sentimento muito forte em sua mente pede que ela siga. Mas a sua jornada está longe de ser fácil, pois ela encontrará diversas interferências no caminho.
 
-Programadores
+**Programadores:
 
- Sérgio Henrique (Desire Blue Sky#7397), Gustavo Henrique (DjdogeGamer#9319)
+* Sérgio Henrique (Desire Blue Sky#7397)
+* Gustavo Henrique (DjdogeGamer#9319)
 
-Arte
+**Arte:
+* Guilherme Meira (ribameira#6599) (cenário e cutscenes)
+* Fábio Filho (DICE#0981) (character design, design dos inimigos, sprites e animação)
 
-  Guilherme Meira (ribameira#6599) (cenário e cutscenes), Fábio Filho (DICE#0981) (character design, design dos inimigos, sprites e animação)
+**Soundtrack
 
-Soundtrack
+* André Ferraz (HEY HEY#7175)
 
-  André Ferraz (HEY HEY#7175)
+**Level Design:
 
-Level Design
+* Levi (#0854)
+* Davi Rodrigues (Raymond#0438)
 
-  Levi (........#0854), Davi Rodrigues (Raymond#0438)
+**Historia (Script e Narrativa):
 
-Historia (Script e Narrativa)
-
- Patrícia Coutinho (Moopie#7497),Heitor Ferraz (Strawberry Fields#4243),Levi (........#0854),Davi Rodrigues (Raymond#0438)
+* Patrícia Coutinho (Moopie#7497)
+* Heitor Ferraz (Strawberry Fields#4243)
+* Levi (#0854)
+* Davi Rodrigues (Raymond#0438)
 
 Em memória de Anderson Paulo. ❤
