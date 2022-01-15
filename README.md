@@ -15,6 +15,7 @@ O jogo é sobre Wave, uma garota que não sabe onde está ou quem é. No entanto
 * Gustavo Henrique (DjdogeGamer#9319)
 
 **Arte:**
+
 * Guilherme Meira (ribameira#6599) (cenário e cutscenes)
 * Fábio Filho (DICE#0981) (character design, design dos inimigos, sprites e animação)
 
