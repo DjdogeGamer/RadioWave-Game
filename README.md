@@ -3,6 +3,10 @@ Game Jam Colaborativa DinhoAPS 2021
 
 ![image](https://user-images.githubusercontent.com/69666481/144176986-e570a7d3-ad1a-4711-bc09-ee546ce258b8.png)
 
+![image](https://user-images.githubusercontent.com/69666481/151428169-7fb42bb9-d5bf-4cf9-bbf0-1ed8da31e15e.png)
+
+![image](https://user-images.githubusercontent.com/69666481/151428274-f9dfd863-05b0-4278-9609-e60878c4240a.png)
+
 Link para a página no itch.io: https://kuartinhostudio.itch.io/radiowave
 
 RadioWAVE é um shooter horizontal em terceira pessoa, no qual você mexe Wave, a protagonista, com o mouse, e atira ao segurar o botão esquerdo dele. Seu objetivo é limpar a fase dos inimigos! 
